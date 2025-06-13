@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Coffee - Fuel Your Focus</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom Tailwind configuration (optional, for specific colors or extensions) */
+        /* You can define custom colors here or in tailwind.config.js if using a build process */
+        /* For this example, we'll stick to default Tailwind colors and direct classes */
+    </style>
+</head>
+<body class="bg-white text-gray-900 leading-normal tracking-wide">
+    <!-- Header Section -->
+    <header class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <!-- Brand Logo/Name -->
+            <a href="#" class="text-3xl font-extrabold tracking-tight rounded-md p-2">
+                WORD COFFEE
+            </a>
+            <!-- Navigation -->
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#products" class="hover:text-gray-400 text-lg font-medium rounded-md px-3 py-2">Products</a></li>
+                    <li><a href="#game" class="hover:text-gray-400 text-lg font-medium rounded-md px-3 py-2">Game</a></li>
+                    <li><a href="#about" class="hover:text-gray-400 text-lg font-medium rounded-md px-3 py-2">About Us</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400 text-lg font-medium rounded-md px-3 py-2">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -152,3 +189,4 @@
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
 </body>
+</html>
