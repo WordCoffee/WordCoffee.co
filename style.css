@@ -1,0 +1,41 @@
+/*
+  This CSS file is primarily used to import custom fonts.
+  Most styling is handled directly in the HTML using Tailwind CSS utility classes.
+*/
+
+/* Import the Inter font from Google Fonts (already linked in HTML head) */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap'); */
+
+/* Any additional custom styles or overrides can be added here.
+   However, it is recommended to use Tailwind classes for consistency. */
+
+/* Example: Basic reset if needed (Tailwind includes its own preflight base) */
+/*
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+/* Example for a specific custom button style not covered by direct Tailwind classes (less common) */
+/*
+.custom-button {
+    background-image: linear-gradient(to right, #4B4B4B 0%, #1A1A1A 100%);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 9999px; // Full rounded corners
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+*/
